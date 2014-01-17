@@ -1,0 +1,54 @@
+
+div#page {
+	background-color: #000;
+	border-color: #222;
+}
+div#footer {
+	color: #888;
+}
+div.caption-container {
+	color: #eee;
+}
+div.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+div.image-desc {
+	line-height: 1.3em;
+	padding-top: 12px;
+}
+div.download {
+	margin-top: 8px;
+}
+div.photo-index {
+	color:#33869d;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 12px;
+}
+div.navigation a.prev {
+	background-image: url(prevPageArrow.gif);
+}
+div.navigation a.next {
+	background-image: url(nextPageArrow.gif);
+}
+div.loader {
+	background-image: url(loader.gif);
+}
+div.slideshow img {
+	border-color: #333;
+}
+ul.thumbs li.selected a.thumb {
+	background: #fff;
+	width: 500px;
+	height: 331px;
+}
+div.pagination a:hover {
+	background-color: #111;
+}
+div.pagination span.current {
+	background-color: #fff;
+	border-color: #fff;
+	color: #000;
+}

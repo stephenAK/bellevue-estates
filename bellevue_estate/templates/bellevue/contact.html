@@ -1,0 +1,133 @@
+{% extends "bellevue/index.html" %}
+
+
+{%block title%}<title>Bellevue | Contact Us </title> {%endblock title%}
+
+
+ {% block menu %}
+ {%ifequal modaL 'modal' %}
+ 
+ <div class="modal hide fade" id="myModal">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">x</button>
+    <h3>MESSAGE SENT..</h3>
+  </div>
+  <div class="modal-body">
+    <p><h3>THANKS [ {{sender}} ]. 
+    
+     Your message has been sent successfully.
+     
+    </h3></p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal">Close</a>
+  </div>
+</div>
+{%endifequal%}
+ 
+ <div class="container"style="background:#FAFAFA; margin-top:30px; width:560px; margin-left:370px;">
+ <img src="/static/images/social/email.png" height="20px;" alt="" /> 
+ <a href="mailto:bellevueestate.gh@gmail.com" style="color:#33869d;" >bellevueestate.gh@gmail.com </a> &nbsp &nbsp
+<img src="/static/images/social/call.png" height="20px;" alt="" /> <font color="#33869d">+233 233 927 348 / +233 242 927 348</font> &nbsp &nbsp
+  
+  <img src="/static/images/social/facebook.png" height="20px;" alt="" />
+   <img src="/static/images/social/twitter.png" height="20px;" alt="" />
+   <img src="/static/images/social/skype.png"height="20px;" alt="" />
+  </div>
+ <div  style="background-color:; width:940px; margin-left:0px; margin-top:-40px;">
+      <img src="/static/images/mlogo.png" alt="" />
+     <!--  <h1 style="margin-top:-29px;"><a href="#" style="color:grey; font-style:italic;  margin-left:16px;">
+      <strong style="color:green;">Bellevue</strong> Estates</a></h1> -->
+     <ul class="nav nav-pills" style="margin-left:300px; margin-top:-40px;">
+  <li><a href="/"  style="color:#33869d; ">Home</a> </li>
+  <li >
+  <a href="/aboutUs/" style="color:#33869d;" >About Us</a>
+  </li>
+  <li><a href="#" style="color:#33869d;" > House Types</a></li>
+  <li><a href="#" style="color:#33869d;" > Project Sites</a></li>
+  <li><a href="/media/" style="color:#33869d;" > Media</a></li>
+  <li  class="active" style="background-color:transparent;">
+  <a href="/contactUs/" style="background-color:#d9983e;" > Contact Us</a>
+  </li>
+</ul>
+
+<div  class="hr" style =""> </div>
+      </div>
+      {% endblock menu %} 
+{% block content %}
+	<div class="container" style="border-left:3px solid #d9983e;background:#FAFAFA; margin-bottom:20px; margin-top:15px; border-radius:10px;">
+	<div class="span6" style="background-color:;">
+<form  id="login"  style="" class="" action="." method="post">
+
+		<fieldset>
+	   <legend> <b style="">Contact Form</b></legend>
+	   
+	      {% for field in form %}   
+	       {{ field.label_tag }} 
+	      <font color="red">{{field.errors}}</font> 
+           
+            {{ field }}
+            
+            
+                       
+      {% endfor %}
+    
+     <button style="margin-left:0px; margin-top:40px;"class="btn btn-large" type="submit" value="" >
+        <b>Click to Submit </b></button>     	
+     	</fieldset>
+     	
+  	</form>
+  	</div>
+  	<div class="span4" style="background-color:;">
+      <legend> <b style="">Contact Info</b></legend> 	
+      
+      <b>Address:</br> </b>
+      <p>Pawpaso-Kuntusose</br>
+         20 Minutes Drive from Achimota-Accra,Ghana</br>
+         On the New Accra-Kumasi road.</p>
+     <b>Phone </br></b> 
+       <p>+233-233 927 348</br>
+       +233-242 927 348</p></br>       
+     <b> Email:</br></b>
+      <a href="mailto:bellevueestate.gh@gmail.com" style="color:#33869d; margin-bottom:20px;"> bellevueestate.gh@gmail.com</a>
+      
+    </br>  <b>Location:</b>
+       <!-- <iframe width="450" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=200821159747111430937.0004df2127bc1c7d514e9&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=5.650836,-0.128746&amp;spn=0.102496,0.102997&amp;z=12&amp;output=embed">
+     </iframe><br />
+     <small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=200821159747111430937.0004df2127bc1c7d514e9&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=5.650836,-0.128746&amp;spn=0.102496,0.102997&amp;z=12&amp;source=embed" style="color:#0000FF;text-align:left">
+     Bellevue Estates Ghana</a> in a larger map</small> -->
+ <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.gh/maps/ms?msa=0&amp;msid=200821159747111430937.0004f02b65c62a826b65c&amp;ie=UTF8&amp;t=m&amp;ll=5.699861,-0.294399&amp;spn=0.029892,0.036478&amp;z=14&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com.gh/maps/ms?msa=0&amp;msid=200821159747111430937.0004f02b65c62a826b65c&amp;ie=UTF8&amp;t=m&amp;ll=5.699861,-0.294399&amp;spn=0.029892,0.036478&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">BELLEVUE ESTATES GH</a> in a larger map</small></div>
+
+
+</div>
+
+{% endblock content %}   
+
+
+
+{% block footer %}
+	  <div class="container " style ="">
+      <div class="footer" >	
+         <div class="alert " style="background-color::#d9983e; border:1px solid #d9983e; height:20px;"> 
+              
+
+    <a href="/" style="color:#33869d; ">Home</a> <span class="divider">|</span>
+ 
+ 
+    <a href="/aboutUs/"style="color:#33869d; ">About Us</a> <span class="divider">|</span>
+     <a href="#"style="color:#33869d; ">House Types</a> <span class="divider">|</span>
+      <a href="#"style="color:#33869d; ">Project Sites</a> <span class="divider">|</span>
+       <a href="/media/"style="color:#33869d; ">Media</a> <span class="divider">|</span>
+
+ 
+    <a href="/contactUs/" style="color:#d9983e;">Contact Us</a> 
+  
+ 
+          
+	             </div>
+	              <p class= "pull-right" style = "background-color:; font-size:10px;">Copyright &copy {% ifnotequal date_time '2013' %}2013 - {% endifnotequal%}  {{date_time}}<a href="#blupay" style="color:#33869d;"> Bellevue Estates. 
+	               </a> All Rights Reserved. Designed By<a href="#http://www.blupaygh.com"> Blupay Systems</a> </p> 
+	     </div>
+	 
+	   </div>  
+	{% endblock footer %}   

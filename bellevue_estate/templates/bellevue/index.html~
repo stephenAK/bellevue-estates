@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	{% block title %}
+<title>Bellevue Estates | Home</title>
+{% endblock title %}
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="keywords" content="Bellevue Estates, Bellevue, Estates" />
+ <meta name="description" content="Bellevue Estates, houses, home, affordable home, real estates, cheap real estates" />
+	<!-- Start HEAD section -->
+	<link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="/static/engine1/style.css" />
+ <link rel="stylesheet" href="/static/css/basic.css" type="text/css" />
+		<link rel="stylesheet" href="/static/css/galleriffic-5.css" type="text/css" />
+		
+		<!-- <link rel="stylesheet" href="css/white.css" type="text/css" /> -->
+		<link rel="stylesheet" href="/static/css/black.css" type="text/css" />	
+	 <link rel="shortcut icon" href="/static/ico/favicon.png">
+	
+	<script type="text/javascript" src="/static/engine1/jquery.js"></script>
+	<script
+src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+</script>
+<style type = "text/css">
+
+.form-horizontal input {width:700px;}
+#login input,textarea { width:400px;  }
+</style>
+	<!-- End HEAD section -->
+</head>
+
+<body style="background-color:transparent;"> <!-- background: #035F8B url(/static/images/bg.jpg) repeat; "> -->
+<div class="container">
+  {% block menu %}
+  <div class="container"style="background:#FAFAFA; margin-top:30px; width:560px; margin-left:370px;">
+ <img src="/static/images/social/email.png" height="20px;" alt="" /> 
+ <a href="mailto:bellevueestate.gh@gmail.com" style="color:#33869d;" >bellevueestate.gh@gmail.com  </a>&nbsp &nbsp
+<img src="/static/images/social/call.png" height="20px;" alt="" /> <font color="#33869d">+233 233 927 348 / +233 242 927 348</font> &nbsp &nbsp
+  
+ <a href="#https://www.facebook.com" target="blank"> <img  src="/static/images/social/facebook.png" height="20px;" alt="" /></a>
+ <a href="#https://www.twitter.com"target="blank" ><img src="/static/images/social/twitter.png" height="20px;" alt="" /></a>
+  <a href="#https://www.skype.com"target="blank" > <img src="/static/images/social/skype.png"height="20px;" alt="" /></a>
+  </div>
+ <div  style="background-color:transparent; width:940px; margin-left:0px; margin-top:-40px;">
+      <img src="/static/images/mlogo.png" alt="" />
+     <!--  <h1 style="margin-top:-29px;"><a href="#" style="color:grey; font-style:italic;  margin-left:16px;">
+      <strong style="color:green;">Bellevue</strong> Estates</a></h1> -->
+     <ul class="nav nav-pills" style="margin-left:300px; margin-top:-40px;">
+  <li class="active" style="background-color:transparent;">
+    <a href="/" style="background-color:#d9983e;font-size:1em;">Home</a>
+  </li>
+  <li><a href="/aboutUs/" style="color:#33869d; " >About Us</a></li>
+  <li><a href="#" style="color:#33869d;" > House Types</a></li>
+  <li><a href="#" style="color:#33869d;" > Project Sites</a></li>
+  <li><a href="/media/" style="color:#33869d;" > Media</a></li>
+  <li><a href="/contactUs/" style="color:#33869d;" > Contact Us</a></li>
+</ul>
+
+<div  class="hr" style =""> </div>
+      </div>
+      {% endblock menu %} 
+      
+      
+      
+      
+      {% block content %}
+	<!-- Start WOWSlider.com BODY section --3d_cubswallpaper1440x900 -->
+	<div id="wowslider-container1" style="background-color: white;  border-radius:5px; border:1px solid #d9983e;">
+	
+	<div class="ws_images"><ul>
+<li><img src="/static/images/slider/photo_1.JPG" height="" alt="3d_cubs-wallpaper-1440x900" title="Home for your Family" id="wows1_0"/></li>
+<li><img src="/static/images/slider/photo_2.JPG" alt="across_the_floors_of_union_station-wallpaper-1440x900" title="The quality home you deserve" id="wows1_1"/></li>
+<li><img src="/static/images/slider/photo_3.JPG" alt="amphibious_vehicle-wallpaper-1440x900" title="Affordable Prices" id="wows1_2"/></li>
+<li><img src="/static/images/slider/photo_4.JPG" alt="armenia_yerevan_botanical_garden-wallpaper-1440x900" title="All in One House" id="wows1_3"/></li>
+<li><img src="/static/images/slider/photo_3.JPG" alt="blue_and_red_i_think-wallpaper-1440x900" title="We deliver" id="wows1_4"/></li>
+<li><img src="/static/images/slider/photo_2.JPG" alt="broken_glass_2-wallpaper-1440x900" title="Bellevue" id="wows1_5"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="3d_cubs-wallpaper-1440x900"><img src="/static/images/tooltips/photo_1.jpg" alt="3d_cubs-wallpaper-1440x900"/>1</a>
+<a href="#" title="across_the_floors_of_union_station-wallpaper-1440x900"><img src="/static/images/tooltips/photo_2.jpg" alt="across_the_floors_of_union_station-wallpaper-1440x900"/>2</a>
+<a href="#" title="amphibious_vehicle-wallpaper-1440x900"><img src="/static/images/tooltips/photo_3.jpg" alt="amphibious_vehicle-wallpaper-1440x900"/>3</a>
+<a href="#" title="armenia_yerevan_botanical_garden-wallpaper-1440x900"><img src="/static/images/tooltips/photo_4.jpg" alt="armenia_yerevan_botanical_garden-wallpaper-1440x900"/>4</a>
+<a href="#" title="blue_and_red_i_think-wallpaper-1440x900"><img src="/static/images/tooltips/photo_3.jpg" alt="blue_and_red_i_think-wallpaper-1440x900"/>5</a>
+<a href="#" title="broken_glass_2-wallpaper-1440x900"><img src="/static/images/tooltips/photo_2.jpg" alt="broken_glass_2-wallpaper-1440x900"/>6</a>
+</div></div>
+<!-- <span class="wsl"><a href="#">Script Gallery</a></span> -->
+	<a href="#" class="ws_frame"></a>
+	<div class="ws_shadow"></div>
+	
+	
+	
+	
+	</div>
+	<div class="container" style="border-left:4px solid #d9983e;background:#FAFAFA; margin-bottom:20px; margin-top:-40px; border-radius:10px;">
+	<h3 style="margin-left:10px;"> Welcome Address</h3>
+	<p style="color:#33869d; margin-left:10px; " >
+	Welcome to our website. Bellevue Estates is a locally owned real estate company.</br>
+We are dedicated to providing personal service and helping our clients have a satisfying and successful house experience.
+We have over # Years of experience of finding homes that will best meet your needs and dreams.
+If you're thinking of buying a home, we will assure you that it will receive world wide exposure.
+We understand that buying or selling house is an exciting and sometime stressful experience. It is our goal to take the stress out of the process and guide you through all the steps to a satisfying closing.
+We look forward to hearing from you and serving you.  
+<button  class="btn btn btn-large" style="background:; "><a href="/aboutUs/"  id="atag" > Read more</a></button>
+
+</p>
+  	
+	</div>
+	
+	 {% endblock  %}
+	<div class="container ">
+	<div  class="hr" style =" margin-top:10px; margin-bottom:15px;"> </div>
+   <ul class="thumbnails">
+  <li class="span3">
+     <h4 style="text-align: center; color: #d9983e;">Interior Designs </h4>
+    <a class="thumbnail" style="" >
+      <img src="/static/images/tooltips/thumb2.jpg" height="150" width="200" alt="">
+      
+      <!-- <p>Price:$85,000-$100,000</p> -->
+     <!--  <button class="alert" style="background-color::#d9983e;">Read More</button> -->
+    </a>
+  </li>
+  <li class="span3">
+    <h4 style="text-align: center; color: #d9983e;">3D Iconic Designs </h4>
+    <a class="thumbnail">
+      <img  src="/static/images/tooltips/thumb3.jpg" height="150" width="200"alt="">
+     <!-- <p>Price:$85,000-$100,000</p>
+      <button class="btn btn-primary">Read More</button> -->
+    </a>
+  </li>
+  <li class="span3">
+   <h4 style="text-align: center; color: #d9983e;">Facilities </h4>
+    <a class="thumbnail">
+      <img  src="/static/images/tooltips/thumb4.jpg" height="150" width="200" alt="">
+      <!-- <p>Price:$85,000-$100,000</p>
+      <button class="btn btn-primary">Read More</button> -->
+    </a>
+  </li>
+  <li class="span3">
+    <h4 style="text-align: center; color: #d9983e;">Site Layout </h4>
+    <a class="thumbnail" >
+      <img  src="/static/images/tooltips/thumb5.jpg" height="150" width="200"alt="">
+      <!-- <p>Price:$85,000-$100,000</p>
+      <button class="btn btn-primary">Read More</button> -->
+    </a>
+  </li>
+  
+</ul>	
+	
+<!-- 	<div  class="hr" style =""> </div> -->
+	</div>
+	
+	
+	 {% block footer %}
+	  <div class="container " style ="">
+      <div class="footer" >	
+         <div class="alert " style="background-color::#d9983e; border:1px solid #d9983e; height:20px;"> 
+              
+
+    <a href="/" style="color:#d9983e; ">Home</a> <span class="divider">|</span>
+ 
+ 
+    <a href="/aboutUs/"style="color:#33869d; ">About Us</a> <span class="divider">|</span>
+     <a href="#"style="color:#33869d; ">House Types</a> <span class="divider">|</span>
+      <a href="#"style="color:#33869d; ">Project Sites</a> <span class="divider">|</span>
+       <a href="/media/"style="color:#33869d; ">Media</a> <span class="divider">|</span>
+
+ 
+    <a href="/contactUs/" style="color:#33869d;">Contact Us</a> 
+  
+ 
+          
+	             </div>
+	              <p class= "pull-right" style = "background-color:; font-size:10px;">Copyright &copy {% ifnotequal date_time '2013' %}2013 - {% endifnotequal%}  {{date_time}}<a href="#blupay" style="color:#33869d;"> Bellevue Estates. 
+	               </a> All Rights Reserved. Designed By<a href="#http://www.blupaygh.com"> Blupay Systems</a> </p> 
+	     </div>
+	 
+	   </div>  
+	{% endblock footer %}
+	</div>
+	<script type="text/javascript" src="/static/engine1/wowslider.js"></script>
+	<script type="text/javascript" src="/static/engine1/script.js"></script>
+	<!-- End  BODY section -->
+	
+ <script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(5.6516003,-0.129541),
+  zoom:15,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script src="/static/bootstrap/js/bootstrap-transition.js"></script>
+<script src="/static/bootstrap/js/bootstrap-modal.js"></script>
+ 	 <script type="text/javascript">
+ 	 	$(function(){
+ 	 	$('#myModal').modal('show');
+ 	 	
+ 	 	})	
+ 	 	</script>
+<script type="text/javascript" src="/static/js/jquery-1.3.2.js"></script>
+		<script type="text/javascript" src="/static/js/jquery.history.js"></script>
+		<script type="text/javascript" src="/static/js/jquery.galleriffic.js"></script>
+		<script type="text/javascript" src="/static/js/jquery.opacityrollover.js"></script>
+		<!-- We only want the thunbnails to display when javascript is disabled -->
+		<script type="text/javascript">
+			document.write('<style>.noscript { display: none; }</style>');
+		</script>
+		
+		
+		
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				// We only want these styles applied when javascript is enabled
+				$('div.content').css('display', 'block');
+
+				// Initially set opacity on thumbs and add
+				// additional styling for hover effect on thumbs
+				var onMouseOutOpacity = 0.67;
+				$('#thumbs ul.thumbs li, div.navigation a.pageLink').opacityrollover({
+					mouseOutOpacity:   onMouseOutOpacity,
+					mouseOverOpacity:  1.0,
+					fadeSpeed:         'fast',
+					exemptionSelector: '.selected'
+				});
+				
+				// Initialize Advanced Galleriffic Gallery
+				var gallery = $('#thumbs').galleriffic({
+					delay:                     2500,
+					numThumbs:                 10,
+					preloadAhead:              10,
+					enableTopPager:            false,
+					enableBottomPager:         false,
+					imageContainerSel:         '#slideshow',
+					controlsContainerSel:      '#controls',
+					captionContainerSel:       '#caption',
+					loadingContainerSel:       '#loading',
+					renderSSControls:          true,
+					renderNavControls:         true,
+					playLinkText:              'Play Slideshow',
+					pauseLinkText:             'Pause Slideshow',
+					prevLinkText:              '&lsaquo; Previous Photo',
+					nextLinkText:              'Next Photo &rsaquo;',
+					nextPageLinkText:          'Next &rsaquo;',
+					prevPageLinkText:          '&lsaquo; Prev',
+					enableHistory:             true,
+					autoStart:                 false,
+					syncTransitions:           true,
+					defaultTransitionDuration: 900,
+					onSlideChange:             function(prevIndex, nextIndex) {
+						// 'this' refers to the gallery, which is an extension of $('#thumbs')
+						this.find('ul.thumbs').children()
+							.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
+							.eq(nextIndex).fadeTo('fast', 1.0);
+
+						// Update the photo index display
+						this.$captionContainer.find('div.photo-index')
+							.html('Photo '+ (nextIndex+1) +' of '+ this.data.length);
+					},
+					onPageTransitionOut:       function(callback) {
+						this.fadeTo('fast', 0.0, callback);
+					},
+					onPageTransitionIn:        function() {
+						var prevPageLink = this.find('a.prev').css('visibility', 'hidden');
+						var nextPageLink = this.find('a.next').css('visibility', 'hidden');
+						
+						// Show appropriate next / prev page links
+						if (this.displayedPage > 0)
+							prevPageLink.css('visibility', 'visible');
+
+						var lastPage = this.getNumPages() - 1;
+						if (this.displayedPage < lastPage)
+							nextPageLink.css('visibility', 'visible');
+
+						this.fadeTo('fast', 1.0);
+					}
+				});
+
+				/**************** Event handlers for custom next / prev page links **********************/
+
+				gallery.find('a.prev').click(function(e) {
+					gallery.previousPage();
+					e.preventDefault();
+				});
+
+				gallery.find('a.next').click(function(e) {
+					gallery.nextPage();
+					e.preventDefault();
+				});
+
+				/****************************************************************************************/
+
+				/**** Functions to support integration of galleriffic with the jquery.history plugin ****/
+
+				// PageLoad function
+				// This function is called when:
+				// 1. after calling $.historyInit();
+				// 2. after calling $.historyLoad();
+				// 3. after pushing "Go Back" button of a browser
+				function pageload(hash) {
+					// alert("pageload: " + hash);
+					// hash doesn't contain the first # character.
+					if(hash) {
+						$.galleriffic.gotoImage(hash);
+					} else {
+						gallery.gotoIndex(0);
+					}
+				}
+
+				// Initialize history plugin.
+				// The callback is called at once by present location.hash. 
+				$.historyInit(pageload, "advanced.html");
+
+				// set onlick event for buttons using the jQuery 1.3 live method
+				$("a[rel='history']").live('click', function(e) {
+					if (e.button != 0) return true;
+
+					var hash = this.href;
+					hash = hash.replace(/^.*#/, '');
+
+					// moves to a new page. 
+					// pageload is called at once. 
+					// hash don't contain "#", "?"
+					$.historyLoad(hash);
+
+					return false;
+				});
+
+				/****************************************************************************************/
+			});
+		</script> 	 	
+ 	 	
+ 	 	
+</body>
+</html>
